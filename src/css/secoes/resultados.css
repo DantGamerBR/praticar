@@ -1,0 +1,38 @@
+/* resultados */
+.resultados .container-resultados {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resultados .container-resultados p,
+.resultados .container-resultados h3,
+.resultados .container-resultados a{
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.resultados .container-resultados p {
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+    padding: 20px;
+}
+
+.resultados .container-resultados a {
+    color: var(--cor-primaria);
+}
+
+.resultados .container-resultados a:hover {
+    color: var(--cor-secundaria);
+}
+
+.video .youtube{
+    width: 100%;
+    height: 532px;
+    margin: auto;
+    padding: 8px;
+}
