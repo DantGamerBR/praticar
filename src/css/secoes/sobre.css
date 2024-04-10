@@ -25,6 +25,14 @@
     margin-top: 50px;
 }
 
+.sobre-mim .informacoes-sobre-mim .botoes a {
+    color: #000;
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes a:hover {
+    color: var(--cor-branca);
+}
+
 .sobre-mim .informacoes-sobre-mim p {
     font-size: 1.8rem;
     font-weight: 300;
